@@ -14,6 +14,15 @@
 		39FA1B811FCAB6F200B38223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FA1B7F1FCAB6F200B38223 /* LaunchScreen.storyboard */; };
 		39FA1B8C1FCAB6F200B38223 /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1B8B1FCAB6F200B38223 /* PrototypeTests.swift */; };
 		39FA1B971FCAB6F200B38223 /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1B961FCAB6F200B38223 /* PrototypeUITests.swift */; };
+		39FA1BA51FCAB7DA00B38223 /* NetworkingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FA1BA41FCAB7DA00B38223 /* NetworkingKit.framework */; };
+		39FA1BA61FCAB7DA00B38223 /* NetworkingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39FA1BA41FCAB7DA00B38223 /* NetworkingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39FA1BAB1FCABCC100B38223 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BAA1FCABCC100B38223 /* Profile.swift */; };
+		39FA1BB01FCACFEB00B38223 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BAF1FCACFEB00B38223 /* DependencyContainer.swift */; };
+		39FA1BB21FCAD43800B38223 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BB11FCAD43800B38223 /* Factory.swift */; };
+		39FA1BB51FCB1D7500B38223 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BB41FCB1D7500B38223 /* LoadingViewController.swift */; };
+		39FA1BB71FCB1F4E00B38223 /* UIViewController+ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BB61FCB1F4E00B38223 /* UIViewController+ChildViewController.swift */; };
+		39FA1BB91FCB2FAD00B38223 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BB81FCB2FAD00B38223 /* DataProvider.swift */; };
+		39FA1BBB1FCB403B00B38223 /* Profile+APIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA1BBA1FCB403B00B38223 /* Profile+APIResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		39FA1BA71FCAB7DA00B38223 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				39FA1BA61FCAB7DA00B38223 /* NetworkingKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		39FA1B731FCAB6F100B38223 /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FA1B761FCAB6F100B38223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +70,14 @@
 		39FA1B921FCAB6F200B38223 /* PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FA1B961FCAB6F200B38223 /* PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITests.swift; sourceTree = "<group>"; };
 		39FA1B981FCAB6F200B38223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FA1BA41FCAB7DA00B38223 /* NetworkingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkingKit.framework; path = Carthage/Build/iOS/NetworkingKit.framework; sourceTree = "<group>"; };
+		39FA1BAA1FCABCC100B38223 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		39FA1BAF1FCACFEB00B38223 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		39FA1BB11FCAD43800B38223 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		39FA1BB41FCB1D7500B38223 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		39FA1BB61FCB1F4E00B38223 /* UIViewController+ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildViewController.swift"; sourceTree = "<group>"; };
+		39FA1BB81FCB2FAD00B38223 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		39FA1BBA1FCB403B00B38223 /* Profile+APIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+APIResources.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FA1BA51FCAB7DA00B38223 /* NetworkingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +109,7 @@
 		39FA1B6A1FCAB6F100B38223 = {
 			isa = PBXGroup;
 			children = (
+				39FA1BA41FCAB7DA00B38223 /* NetworkingKit.framework */,
 				39FA1B751FCAB6F100B38223 /* Prototype */,
 				39FA1B8A1FCAB6F200B38223 /* PrototypeTests */,
 				39FA1B951FCAB6F200B38223 /* PrototypeUITests */,
@@ -97,12 +130,13 @@
 		39FA1B751FCAB6F100B38223 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				39FA1B761FCAB6F100B38223 /* AppDelegate.swift */,
+				39FA1BB31FCB1D5700B38223 /* Loading View Controller */,
+				39FA1BAE1FCACFC800B38223 /* Dependency container */,
+				39FA1BA91FCABC1400B38223 /* Models */,
 				39FA1B781FCAB6F200B38223 /* ViewController.swift */,
-				39FA1B7A1FCAB6F200B38223 /* Main.storyboard */,
-				39FA1B7D1FCAB6F200B38223 /* Assets.xcassets */,
-				39FA1B7F1FCAB6F200B38223 /* LaunchScreen.storyboard */,
+				39FA1BB81FCB2FAD00B38223 /* DataProvider.swift */,
 				39FA1B821FCAB6F200B38223 /* Info.plist */,
+				39FA1BA81FCAB82D00B38223 /* Supporting files */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -125,6 +159,44 @@
 			path = PrototypeUITests;
 			sourceTree = "<group>";
 		};
+		39FA1BA81FCAB82D00B38223 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				39FA1B761FCAB6F100B38223 /* AppDelegate.swift */,
+				39FA1B7A1FCAB6F200B38223 /* Main.storyboard */,
+				39FA1B7D1FCAB6F200B38223 /* Assets.xcassets */,
+				39FA1B7F1FCAB6F200B38223 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		39FA1BA91FCABC1400B38223 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39FA1BAA1FCABCC100B38223 /* Profile.swift */,
+				39FA1BBA1FCB403B00B38223 /* Profile+APIResources.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39FA1BAE1FCACFC800B38223 /* Dependency container */ = {
+			isa = PBXGroup;
+			children = (
+				39FA1BAF1FCACFEB00B38223 /* DependencyContainer.swift */,
+				39FA1BB11FCAD43800B38223 /* Factory.swift */,
+			);
+			path = "Dependency container";
+			sourceTree = "<group>";
+		};
+		39FA1BB31FCB1D5700B38223 /* Loading View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39FA1BB41FCB1D7500B38223 /* LoadingViewController.swift */,
+				39FA1BB61FCB1F4E00B38223 /* UIViewController+ChildViewController.swift */,
+			);
+			path = "Loading View Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +207,7 @@
 				39FA1B6F1FCAB6F100B38223 /* Sources */,
 				39FA1B701FCAB6F100B38223 /* Frameworks */,
 				39FA1B711FCAB6F100B38223 /* Resources */,
+				39FA1BA71FCAB7DA00B38223 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,8 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FA1BAB1FCABCC100B38223 /* Profile.swift in Sources */,
 				39FA1B791FCAB6F200B38223 /* ViewController.swift in Sources */,
+				39FA1BB91FCB2FAD00B38223 /* DataProvider.swift in Sources */,
+				39FA1BB01FCACFEB00B38223 /* DependencyContainer.swift in Sources */,
+				39FA1BBB1FCB403B00B38223 /* Profile+APIResources.swift in Sources */,
 				39FA1B771FCAB6F100B38223 /* AppDelegate.swift in Sources */,
+				39FA1BB21FCAD43800B38223 /* Factory.swift in Sources */,
+				39FA1BB51FCB1D7500B38223 /* LoadingViewController.swift in Sources */,
+				39FA1BB71FCB1F4E00B38223 /* UIViewController+ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +506,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88J7LP5N2W;
+				DEVELOPMENT_TEAM = 7V3AGZ3QSE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanTech.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanTech.prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,12 +527,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88J7LP5N2W;
+				DEVELOPMENT_TEAM = 7V3AGZ3QSE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanTech.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanTech.prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
